@@ -11,7 +11,7 @@ import pickle
 
 
 if __name__ == '__main__':
-    df=pd.read_excel('Результаты опросов_final.xlsx', header=[0,1])
+    df=pd.read_excel('Результаты опросов_final_3.xlsx', header=[0,1])
     x0=list(df.columns.get_level_values(0))
     x1=list(df.columns.get_level_values(1))
     x11=[]
